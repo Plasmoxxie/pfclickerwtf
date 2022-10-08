@@ -1,0 +1,21 @@
+Let's make a game!
+name:Pink Fox Infection - The Clicker Experiment
+by:PlassyVanni
+desc:The scientists have decided to conduct a strange experiment involving... a clicker game?
+version:alpha 1
+Settings
+background:https://iili.io/Q1YJFp.png
+building cost increase:110%
+building cost refund:80%
+spritesheet:icons, 28 by 26, https://iili.io/QEmeiQ.png
+Layout
+  *resources
+    contains:Resources
+    header:These are your resources.
+  *buildings
+    contains:Buildings
+    header:These are things you can build.
+    tooltip origin:bottom
+  *unlockables
+    contains:Upgrades, Achievements
+    names:hide
